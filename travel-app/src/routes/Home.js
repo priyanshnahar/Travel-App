@@ -10,7 +10,11 @@ function Home() {
     <Hero 
     cName="hero"
     heroImg={mountain}
-    text="Your Journey Your Story"/>
+    title="Your Journey Your Story"
+    text="Choose Your Favourite Dest"
+    buttonText="Travel Plan"
+    url="/"
+    btnClass="show"/>
     </> 
   )
  
