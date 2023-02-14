@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import image from "../assets/mountain.jpg"
 import Destination from "../components/Destination";
+import Trip from "../components/Trip";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
     url="/"
     btnClass="show"/>
     <Destination/>
+    <Trip/>
     </> 
   )
  

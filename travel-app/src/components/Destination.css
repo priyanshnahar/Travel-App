@@ -1,6 +1,5 @@
 .destination{
     margin: 4rem 6rem;
-
 }
 
 .destination h1{
@@ -9,6 +8,14 @@
 
 .first-des{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.first-des-reverse{
+    display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
@@ -48,13 +55,20 @@
 
 @media screen and (max-width: 850px){
     .destination{
-        margin: 4rem 6rem;
+        margin: 4rem 2rem;
     }
     .first-des{
         display: flex;
         flex-direction: column-reverse;
         margin-top: 2.5rem;
     }
+
+    .first-des-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4.5rem;
+    }
+
     .des-text{
         width: 100%;
     }
