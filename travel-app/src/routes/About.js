@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import image from "../assets/03.jpg"
+import Footer from "../components/Footer";
 
 function About() {
   return (
@@ -12,6 +13,8 @@ function About() {
     heroImg={image}
     title="About"
     btnClass="hide"/>
+    <Footer/>
+
     </> 
   );
 }
