@@ -1,9 +1,9 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
+import Hero from "../components/Hero/Hero";
+import Navbar from "../components/Navbar/Navbar";
 import mountain from "../assets/05.jpg"
-import Trip from "../components/Trip";
-import Footer from "../components/Footer";
+import Trip from "../components/Trip/Trip";
+import Footer from "../components/Footer/Footer";
 
 function Service() {
   return (
@@ -15,7 +15,7 @@ function Service() {
     title="Service"
     btnClass="hide"/>
     <Trip/>
-    <Footer/>
+    <Footer/> 
     </> 
   );
 }

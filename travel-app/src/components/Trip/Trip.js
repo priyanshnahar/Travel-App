@@ -1,8 +1,8 @@
 import "./TripStyle.css";
 import TripData from "./TripData";
-import Trip1 from "../assets/15.jpg";
-import Trip2 from "../assets/14.jpg";
-import Trip3 from "../assets/13.jpg";
+import Trip1 from "../../assets/15.jpg";
+import Trip2 from "../../assets/14.jpg";
+import Trip3 from "../../assets/13.jpg";
 
 function Trip() {
   return (

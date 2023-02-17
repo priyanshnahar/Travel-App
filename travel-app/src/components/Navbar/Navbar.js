@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { MenuItems } from "./MenuItem";
+import { MenuItems } from "../Menu/MenuItem";
 import { Link } from "react-router-dom";
 
 function Navbar() {
